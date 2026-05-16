@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --foreground: #ffffff;
+  --fire-red: #d40000;
+  --dark-red: #7a0000;
+  --fire-orange: #ff4d00;
+  --charcoal: #1a1a1a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-fire-red: var(--fire-red);
+  --color-dark-red: var(--dark-red);
+  --color-fire-orange: var(--fire-orange);
+  --color-charcoal: var(--charcoal);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-bebas-neue);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #050505;
+  background-image: radial-gradient(circle at 50% 0%, #1a0000 0%, transparent 50%),
+                    radial-gradient(circle at 50% 100%, #1a0000 0%, transparent 50%);
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(212, 0, 0, 0.7), 0 0 20px rgba(212, 0, 0, 0.5);
+}
+
+.box-glow {
+  box-shadow: 0 0 15px rgba(212, 0, 0, 0.4), 0 0 30px rgba(212, 0, 0, 0.2);
+}
+
+.glass-panel {
+  background: rgba(26, 26, 26, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Fire animations */
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    opacity: 0.5;
+  }
+}
+
+.animate-flicker {
+  animation: flicker 4s infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
