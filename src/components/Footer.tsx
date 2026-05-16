@@ -1,4 +1,4 @@
-import { Instagram, Facebook, MapPin, Phone } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -19,11 +19,11 @@ export default function Footer() {
               Street food luxury vibes. L'expérience marocaine ultime en matière de tacos et burgers premium.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-fire-red transition-colors text-white">
-                <Instagram className="w-5 h-5" />
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-fire-red transition-colors text-white font-bold font-display">
+                IG
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-fire-red transition-colors text-white">
-                <Facebook className="w-5 h-5" />
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-fire-red transition-colors text-white font-bold font-display">
+                FB
               </a>
               {/* TikTok placeholder icon since lucide doesn't have tiktok by default */}
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-fire-red transition-colors text-white font-bold font-display">
