@@ -19,7 +19,7 @@ export default function Hero() {
           >
             <h2 className="text-fire-red font-bold tracking-[0.2em] uppercase text-sm mb-4 flex items-center gap-2">
               <span className="w-8 h-[2px] bg-fire-red inline-block"></span>
-              L'Expérience Ultime
+              L&apos;Expérience Ultime
             </h2>
             <h1 className="font-display text-6xl sm:text-7xl lg:text-8xl leading-[0.9] tracking-tight uppercase mb-6 text-glow">
               Street Food <br/> 
@@ -29,7 +29,7 @@ export default function Hero() {
             </h1>
             <p className="text-zinc-400 text-lg md:text-xl max-w-md mb-8 font-light leading-relaxed">
               Viande BBQ fraîche, sauces maison secrètes, fromage fondant. 
-              Le goût de la rue marocaine, la qualité d'un restaurant premium.
+              Le goût de la rue marocaine, la qualité d&apos;un restaurant premium.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">

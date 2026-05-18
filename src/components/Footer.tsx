@@ -16,7 +16,7 @@ export default function Footer() {
               BLJ
             </div>
             <p className="text-zinc-400 mb-6 font-light">
-              Street food luxury vibes. L'expérience marocaine ultime en matière de tacos et burgers premium.
+              Street food luxury vibes. L&apos;expérience marocaine ultime en matière de tacos et burgers premium.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-fire-red transition-colors text-white font-bold font-display">

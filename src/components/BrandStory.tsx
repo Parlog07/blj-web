@@ -43,19 +43,19 @@ export default function BrandStory() {
                 La Différence
               </h2>
               <h3 className="font-display text-5xl md:text-6xl uppercase tracking-wider mb-8 leading-tight">
-                Plus qu'un fast-food, <br/>
+                Plus qu&apos;un fast-food, <br/>
                 <span className="text-glow">Un Lifestyle.</span>
               </h3>
               
               <div className="space-y-6 text-zinc-400 text-lg leading-relaxed">
                 <p>
-                  Né de la passion pour la street-food marocaine authentique, <strong>BLJ</strong> repousse les limites du goût. Nous n'utilisons que des viandes fraîches, grillées à la perfection avec ce goût de fumée si particulier.
+                  Né de la passion pour la street-food marocaine authentique, <strong>BLJ</strong> repousse les limites du goût. Nous n&apos;utilisons que des viandes fraîches, grillées à la perfection avec ce goût de fumée si particulier.
                 </p>
                 <p>
                   Nos sauces sont faites maison, nos portions sont généreuses et notre fromage fond exactement comme il faut. 
                 </p>
                 <p className="text-white font-medium border-l-4 border-fire-red pl-4">
-                  "Prix illégal, qualité maximale. L'expérience street food portée à un autre niveau."
+                  &quot;Prix illégal, qualité maximale. L&apos;expérience street food portée à un autre niveau.&quot;
                 </p>
               </div>
 
